@@ -14,6 +14,8 @@
 - 二番
 - 三番
 
+[LINK](.README.txt)
+
 最初のgithub.ioテストです
 
 作者より

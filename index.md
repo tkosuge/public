@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: layout
 ---
 # マークダウンのページ
 ## 次のマークダウンのページ

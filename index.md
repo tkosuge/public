@@ -17,7 +17,7 @@ layout: home
 - 二番
 - 三番
 
-[LINK](.README.txt)
+[LINK](README.txt)
 
 最初のgithub.ioテストです
 

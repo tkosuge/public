@@ -14,7 +14,7 @@
 - 二番
 - 三番
 
-[LINK](README.txt)
+[LINK](markdownhowto.md)
 
 - 一番
 - 二番

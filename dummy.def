@@ -1,0 +1,23 @@
+Bootstrap: docker
+From: ubuntu:24.04
+
+%environment
+    export LANG=en_US.UTF-8
+
+%setup
+    echo "Start building image"
+
+%files
+
+%runscript
+
+%startscript
+
+%post
+    apt update
+    apt -y upgrade
+    DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
+    ln -fs /usr/share/zoneinfo/Asia/Tokyo /etc/localtime    
+    dpkg-reconfigure --frontend noninteractive tzdata
+    apt -y install language-pack-en
+    update-locale LANG=en_US.UTF-8

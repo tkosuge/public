@@ -21,3 +21,6 @@ From: ubuntu:24.04
     dpkg-reconfigure --frontend noninteractive tzdata
     apt -y install language-pack-en
     update-locale LANG=en_US.UTF-8
+
+%labels
+    Author tkosuge

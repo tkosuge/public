@@ -3,7 +3,7 @@ name: Build Singularity Container
 on:
   push:
     paths:
-      - 'Singularity.def'
+      - 'dummy.def'
   workflow_dispatch:
 
 jobs:

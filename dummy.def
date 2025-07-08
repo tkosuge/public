@@ -32,7 +32,7 @@ From: ubuntu:24.04
 
 %labels
     Author tkosuge@nig
-    Version 2025-07-03
+    Version 2025-07-08
 
 %help
     Singularity definition for offering python, R and their libraries to run MSS assist tools (Andrea-san tool).

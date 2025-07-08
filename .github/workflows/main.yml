@@ -27,3 +27,8 @@ jobs:
           name: sif-container
           path: output.sif
 
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: sif-container
+          path: ./retrieved

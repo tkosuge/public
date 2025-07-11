@@ -32,3 +32,9 @@ jobs:
         with:
           name: sif-container
           path: ./retrieved
+
+      - name: Show workflow environment
+        run: |
+          cat /proc/cpuinfo
+          df -h
+          
